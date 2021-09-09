@@ -1,0 +1,115 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #C9E4C5;
+    color: black;
+}
+.navItem{
+    margin: 0rem 1rem 0rem 1rem ;
+}
+.image{
+    height: 15rem;
+    width: 15rem;
+}
+.Text {
+    text-align: center;
+    line-height: 1rem;
+}
+.Text h5 {
+    text-align: justify;
+    line-height: 2.2rem;
+}
+.intro{
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+/*Skill Section*/
+
+.skill-set{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.skills h4{
+    padding:  1rem 0rem 0.5rem 0rem;
+}
+
+/* Hobbies Section*/
+.hobbies , .plans{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.hobbies h4{
+    text-align: justify;
+}
+
+/*Footer Styling*/
+footer{
+    background-color: #222831;
+    color: #fcfcfc;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 3rem;
+}
+footer p{
+    margin-bottom: 0%;
+}
+.footer-content p{
+    max-width: 500px;
+    padding: 10px auto;
+    line-height: 28px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.socials a{
+    color: #fcfcfc;
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .Text h5{
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .Text h1{
+        margin-top: 1rem;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 6px;
+        cursor: pointer;
+    }
+}
+
